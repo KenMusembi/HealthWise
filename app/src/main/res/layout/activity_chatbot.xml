@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:elevation="5dp"
+                android:id="@+id/my_toolbar"
+                app:menu="@menu/main_menu"
+                android:background="@color/blue"
+                app:titleTextColor="@color/white"
+                android:minHeight="?attr/actionBarSize">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!--app:logo="@drawable/healthwise"-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/idRVChats"
+
+            android:padding="5dp"
+            android:layout_margin="1dp"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+            <!-- android:layout_above="@id/idRLMsg" -->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/idRLMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="horizontal"
+        >
+
+        <EditText
+
+            android:id="@+id/idEdtMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Ask Question"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:layout_weight="5"
+            android:textColorHint="@color/black"
+            android:outlineSpotShadowColor="@color/grey"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+        <!--button to send message-->
+        <ImageButton
+            android:id="@+id/idFABSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundcorner"
+            android:src="@android:drawable/ic_menu_send"
+            app:tint="@color/grey" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

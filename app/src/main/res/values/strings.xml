@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HealthWise</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="question">question</string>
+    <string name="answer">answer</string>
+    <string name="browse_questions">Browse Questions</string>
+    <string name="submit_question">Submit Question</string>
+    <string name="update_question">Update Question</string>
+    <string name="remembered_password">Remembered Password?</string>
+    <string name="login">Login</string>
+    <string name="submit">SUBMIT</string>
+    <string name="email">Email</string>
+    <string name="forgot_password_screen">Forgot Password Screen</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="register_here">Register here</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="password">Password</string>
+    <string name="select_a_category_to_read_stories_about">Select a category to read stories on</string>
+    <string name="add_a_category_for_your_story_here">add a category for your story here...</string>
+    <string name="add_story">Add Story</string>
+    <string name="read_stories_from_list_below">Read stories from list below</string>
+
+
+</resources>
