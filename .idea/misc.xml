@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_chatbot.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_retrieve_data.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/bot_msg_rv_item.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/layout/user_msg_rv_item.xml" value="0.2953125" />
       </map>
     </option>
   </component>
