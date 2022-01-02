@@ -2,6 +2,7 @@ package com.example.healthwise;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -11,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
 
-    TextView btnForgotPassword;
+    TextView btnForgotPassword, btnLogin;
     TextInputEditText etForgotPasswordEmail;
 
     @Override
@@ -20,6 +21,11 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forgot_password);
 
         btnForgotPassword = findViewById(R.id.btnForgotPassword);
+        btnLogin = findViewById(R.id.tvGoBackToLogin);
+
+        btnLogin.setOnClickListener(view ->{
+            startActivity(new Intent(ForgotPasswordActivity.this, LoginActivity.class));
+        });
 
         //when forgot password button is clicked, get email and send to firebase auth
         btnForgotPassword.setOnClickListener(view -> {

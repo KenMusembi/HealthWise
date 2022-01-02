@@ -16,7 +16,9 @@
                 android:icon="@drawable/ic_story"
                 android:title="Stories"
                 app:showAsAction="withText"/>
-
+<!--
+add support, faq, about and feedback according to faiba
+-->
             <item
                 android:id="@+id/action_logout"
                 android:icon="@drawable/ic_baseline_exit_to_app_24"

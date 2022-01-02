@@ -1,21 +1,58 @@
-# HealthWise
+# HealthWise App
 
-This Application is leveraging Artificial Intelligence and Machine Learning to provide specialised care to individuals in the form of casual consultations. It is free, open source and available for download and reuse.
+This Application leverages Artificial Intelligence and Machine Learning to provide specialised care to individuals in the form of casual consultations. It is free, open source and available for download and reuse.
 
-Features
+## Installation
 
-1. Login and Rgegistration
+To install the project on your local machine, clone or download the project then open a local set up supporting Android Studio and run.
 
-Allows users to create accounts, this data is saved on Firebase and soley used to give the application context in regards to persistency in interacting to users. Provisions are set to regain access via Forgot Password screen.
+```bash
+git clone https://github.com/KenMusembi/HealthWise.git
+```
+then build and  the project.
 
-2. Chat
+## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/KenMusembi/HospitalsKenyaAPP/total?color=green)
+<a href="https://github.com/KenMusembi/Healthwise/raw/main/screenshots/HealthWise(v0.0.1).apk">
+<img src="https://playerzon.com/asset/download.png" width="200"></img>
+</a> 
 
-The AI Bot, christened Wiz, interacts with users to reply and create conversations aimed at providing a caring environment for users to share.
+## Android Screenshots
 
-3. Community Testimonials
+Login Page               |    Register Page
+:-------------------------:|:-------------------------:
+![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/Login.jpg)|![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/Register.jpg)
 
-Narrations from other application users on how they overcame some of the common human problems.
+Forgot Password Page                 |    Chats Page
+:-------------------------:|:-------------------------:
+![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/ForgotPassword.jpg)|![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/Chats.jpg)
 
-4. Feedback
+Categories Page                 |    Add Category Page
+:-------------------------:|:-------------------------:
+![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/Categories.jpg)|![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/AddCategory.jpg)
 
-Provision to give feedback to the the application creators
+Stories Page                 |    Add Stories Page
+:-------------------------:|:-------------------------:
+![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/Stories.jpg)|![](https://github.com/KenMusembi/HealthWise/blob/main/screenshots/AddStories.jpg)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Mobile projects
+Project Name        |Stars
+:-------------------------|-------------------------
+[HealthSpots Kenya](https://github.com/KenMusembi/HospitalsKenyaAPP)| [![GitHub stars](https://img.shields.io/github/stars/KenMusembi/HospitalsKenyaApp?style=social)](https://github.com/login?return_to=%2FKenMusembi%HospitalsKenyaAPP)
+[Medyq Patient](https://github.com/KenMusembi/MedyqPatient)| [![GitHub stars](https://img.shields.io/github/stars/KenMusembi/MedyqPatient?style=social)](https://github.com/login?return_to=%2FKenMusembi%MedyqPatient)
+[Jitenge iOS](https://github.com/KenMusembi/jitenge_ios)| [![GitHub stars](https://img.shields.io/github/stars/KenMusembi/jitenge_ios?style=social)](https://github.com/login?return_to=%2FKenMusembi%jitenge_ios)
+
+## Created & Maintained By
+[Ken Musembi](https://github.com/KenMusembi) ([Twitter](https://twitter.com/kenmunyao23)) ([Youtube](https://www.youtube.com/channel/UCZHrxsZeOV7WZJ6YQWuaRhw)) ![Twitter Follow](https://img.shields.io/twitter/follow/kenmunyao23?style=social)
+
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> * [PayPal](https://paypal.me/KenMusembi/)
+
+
+> You can also nominate me for Github Star developer program  [here](https://stars.github.com/nominate)
