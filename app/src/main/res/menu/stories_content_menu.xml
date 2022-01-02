@@ -14,11 +14,15 @@
         android:icon="@drawable/ic_home"
         android:title="Home"
         app:showAsAction="withText"/>
+    <item android:id="@+id/action_show_stories"
+        android:icon="@drawable/ic_story"
+        android:title="Stories"
+        app:showAsAction="withText"/>
     <item
         android:id="@+id/action_logout"
         android:icon="@drawable/ic_baseline_exit_to_app_24"
         android:title="Logout"
         app:showAsAction="withText" />
-        </menu>
-    </item>
+    </menu>
+        </item>
 </menu>

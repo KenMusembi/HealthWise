@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -175,7 +176,7 @@ public class StoryContent extends AppCompatActivity {
     //menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.stories_menu,menu);
+       getMenuInflater().inflate(R.menu.stories_content_menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -186,6 +187,12 @@ public class StoryContent extends AppCompatActivity {
                 // User chose the "Settings" item, show the app settings UI...
                 //setContentView(R.layout.categories_listed);
                 startActivity(new Intent(StoryContent.this, MainActivity.class));
+                return true;
+
+            case R.id.action_show_stories:
+                // User chose the "Settings" item, show the app settings UI...
+                //setContentView(R.layout.categories_listed);
+                startActivity(new Intent(StoryContent.this, RetrieveDataActivity.class));
                 return true;
 
             case R.id.action_logout:
