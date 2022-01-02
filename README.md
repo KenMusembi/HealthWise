@@ -12,7 +12,7 @@ git clone https://github.com/KenMusembi/HealthWise.git
 then build and  the project.
 
 ## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/KenMusembi/HospitalsKenyaAPP/total?color=green)
-<a href="https://github.com/KenMusembi/Healthwise/raw/main/screenshots/HealthWise(v0.0.1).apk">
+<a href="https://github.com/KenMusembi/HealthWise/blob/main/screenshots/HealthWise(v.0.0.1).apk?raw=true">
 <img src="https://playerzon.com/asset/download.png" width="200"></img>
 </a> 
 
